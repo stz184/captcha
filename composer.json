@@ -1,0 +1,20 @@
+{
+    "name": "stz184/captcha",
+    "description": "Very simple and ease to use implementation of captcha image generator.",
+    "require": {
+        "php": ">=5.0.0",
+        "ext-gd": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Ivanov",
+            "email": "ivanov.bg@gmail.com"
+        }
+    ],
+     "autoload": {
+        "psr-4": {
+            "stz184\\captcha\\": "src"
+        }
+    }
+}
